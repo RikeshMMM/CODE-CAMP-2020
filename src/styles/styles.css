@@ -44,3 +44,21 @@
     width: 100% !important;
     max-height: 200;
 }
+
+.back {
+    background-image: url("../../content/assets/backgroundcode.png");
+    background-repeat: repeat-y;
+}
+
+a {
+    box-shadow: none;
+}
+
+.expand:hover {
+    letter-spacing: 0.5px;
+}
+
+.expand-2:hover {
+	position:relative;
+    top: 1px;
+}

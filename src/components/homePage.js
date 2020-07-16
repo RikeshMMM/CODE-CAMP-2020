@@ -1,13 +1,10 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
-import { SocialIcon } from 'react-social-icons';
-import socialIcon from "react-social-icons/dist/social-icon";
 import '../styles/styles.css'
 
 import Sponsors from '../components/sponsor'
 import CodeCamp from '../sponsorsLogo/codecamp.png'
-import mountain from '../sponsorsLogo/Mountain.png'
 
 const HomePage = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -39,17 +36,10 @@ const HomePage = ({ location, title, children }) => {
 
   }
   return (
-    <div style={{ backgroundColor:"#383e56" }}>
-      <header style={{ backgroundColor:"#383e56", display:"flex", flexDirection:"row"}}>
-        <h1 style={{ width: "100%",textAlign:"center"}}>
-        <p style={{ padding: 20, paddingTop:0, paddingBottom:0}}>
-          <img src={CodeCamp}  width="200" />
-        </p>
-        </h1>
-      </header>
+    <div className="back" style={{ backgroundColor:"#000" }}>
     <div>
-       <img className="cover" src={mountain} alt="To do mountain" />
-    </div>
+       <img className="cover" src={CodeCamp} alt="To do mountain" />
+    </div> 
       <main
       style={{
         marginLeft: `auto`,
@@ -60,9 +50,9 @@ const HomePage = ({ location, title, children }) => {
       >{children}</main>
         <Sponsors />
 
-      <footer style={{ textAlign:"center", paddingTop: 5, paddingBottom:20, marginBottom:0, bottom:0, backgroundColor:"#fff"}}>
-       <p style={{ fontSize: 20,marginTop:20}}> © {new Date().getFullYear()} | 👨‍💻 with 🧡 by Developers @{` `}
-        <a style={{ fontSize: 20 }} href="https://www.istesrmncr.com">ISTE Students' Chapter SRM NCR</a></p>
+        <footer style={{ textAlign:"center", paddingTop: 5, paddingBottom:20, marginBottom:0, bottom:0, backgroundColor:"#eee"}}>
+       <p className="expand" style={{ fontSize: 20,marginTop:20, opacity: 0.7 }}> © {new Date().getFullYear()} || An OpenSource Website Created by <a target="_blank" style={{ fontSize: 20, boxShadow:"none", opacity: 0.7 }} href="https://github.com/Uyadav207">Utkarsh </a> {` `} _Developer/ 
+        <a target="_blank" style={{ fontSize: 20, boxShadow:"none", opacity:0.7 }} href="https://www.istesrmncr.com">@ISTE Students' Chapter SRM NCR</a></p>
       </footer>
     </div>
   )

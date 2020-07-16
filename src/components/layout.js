@@ -60,14 +60,10 @@ const Layout = ({ location, title, children }) => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(24),
+        maxWidth: rhythm(25),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
       >{children}</main>
-      <footer style={{ textAlign:"center", paddingTop: 20, paddingBottom:20, marginBottom:0, bottom:0 }}>
-       <p style={{ fontSize: 20, padding: 5,}}> © {new Date().getFullYear()} | 👨‍💻 with 🧡 by Developers @{` `}
-        <a style={{ fontSize: 20, color:"#000" }} href="https://www.istesrmncr.com">ISTE Student's Chapter SRM NCR</a></p>
-      </footer>
     </div>
   )
 }

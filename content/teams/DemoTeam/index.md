@@ -12,23 +12,21 @@ No_Of_Member: ""
 
 Hey ! We are Team DemoTeam. We are here to win. and we also love open source.
 
-# TeamName
-
 ---
 
 ## Project's Overview
 
-_**Theme-Name**_ : Education
+_**Theme-Name**_ : 
 
-_**Application-Type**_ : Web Application | Website | Mobile Application (The Application should be hosted and Bundled)
+_**Application-Type**_ :   Web Application | Website | Mobile Application (The Application should be hosted and Bundled)
 
-_**Idea-Description**_ : complete idea description goes here with max 400 words.
+_**Idea-Description**_ :   complete idea description goes here with max 400 words.
 
-_**Tech-Stack-Used**_ : languages or framework used will go here.
+_**Tech-Stack-Used**_ :   languages or framework used will go here.
 
-_**GitHub-Link**_ : Github Link Goes Here (This would be filled after you completed your application)(Will fill in submission Pull Request)
+_**GitHub-Link**_ :   Github project Repository link Goes here (make a blank repository). 
 
-_**Hosted-Link**_ : Hosted link goes here. (Will submit in submission Pull Request)
+_**Hosted-Link**_ :    Hosted link goes here. (Will submit in submission Pull Request)
 
 ---
 
@@ -117,7 +115,7 @@ _**Specialization**_ :
 _**GitHub-ID**_ :  
 
 ---
-_ 
+
 ## Member 6 Details
 
 _**Name**_ :
